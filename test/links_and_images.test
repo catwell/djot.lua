@@ -81,6 +81,14 @@ b]
 <p><a href="url">link</a></p>
 ```
 
+The URL can mix underscores and parens:
+
+```
+[link](foo_(bar_qux))
+.
+<p><a href="foo_(bar_qux)">link</a></p>
+```
+
 If the reference isn't found, we get an empty link.
 
 ```
